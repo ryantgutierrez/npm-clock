@@ -1,0 +1,25 @@
+{
+  "name": "npmapp",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --progress -mode=production",
+    "watch": "webpack --progress --watch",
+    "server": "live-server"
+  },
+  "keywords": [],
+  "author": "Ryan Gutierrez",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "micromodal": "^0.4.10"
+  }
+}
