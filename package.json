@@ -1,7 +1,7 @@
 {
-  "name": "npmapp",
-  "version": "0.1.1",
-  "description": "",
+  "name": "npm-clock",
+  "version": "1.0.0",
+  "description": "Launch, baby!",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -21,5 +21,13 @@
   "dependencies": {
     "dayjs": "^1.11.9",
     "micromodal": "^0.4.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryantgutierrez/npm-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryantgutierrez/npm-clock/issues"
+  },
+  "homepage": "https://github.com/ryantgutierrez/npm-clock#readme"
 }
